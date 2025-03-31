@@ -1,5 +1,5 @@
-# Multi-scale Semantic Correlation Mining network
-Pytorch code for paper "**Multi-scale Semantic Correlation Mining for Visible-Infrared Person Re-Identification**(arxiv)
+# OCCLNet
+Pytorch code for paper "**Original-Channel level Contrastive Learning for Visible-Infrared Person Re-Identification**
 
 **https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4761606**".
 
@@ -30,7 +30,7 @@ We adopt the CNN-based AGW [3] as backbone respectively.
 ### 3. Training
 
 
-**Train MSCMNet by**
+**Train OCCLNet by**
 
 ```
 python train.py --dataset sysu --gpu 0
