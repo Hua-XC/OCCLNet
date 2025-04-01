@@ -55,7 +55,7 @@ args = parser.parse_args()
 torch.cuda.set_device(args.gpu)
 set_seed(args.seed)
 
-
+##TEXT
 dataset = args.dataset
 if dataset == 'sysu':
 
