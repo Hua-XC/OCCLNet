@@ -77,7 +77,7 @@ elif dataset == 'llcm':
     data_path = './dataset/LLCM/'
     n_class = 713
     test_mode = [1, 2]  # [1, 2]: IR to VIS; [2, 1]: VIS to IR;
-
+##
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 best_acc = 0  # best test accuracy
 start_epoch = 0
